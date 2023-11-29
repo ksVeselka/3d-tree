@@ -13,7 +13,7 @@ const Sun = () => {
 
   return (
     <mesh position={[0, 10, 0]} ref={sunRef}>
-      <pointLight position={[0, 0, 0]} intensity={100} />
+      <pointLight position={[0, 0, 0]} intensity={200} />
     </mesh>
   );
 };
